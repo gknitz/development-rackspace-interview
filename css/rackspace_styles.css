@@ -1,0 +1,89 @@
+/* margin (top, right, bottom, left) */
+
+html,body {
+    width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0px 0px 10px 0px;
+	color: #000000;
+	text-align: right;
+	font-size: 12px;
+	font-style: normal;
+	font-family: verdana, helvetica, arial, sans-serif;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+.rsContainer {
+ 	margin-left: auto;
+  	margin-right: auto;
+    text-align: center;
+	margin: 3em 0em 0em 0em;
+}
+
+.rsHeader {
+	margin: 0em 0em 1.0em 0em;
+}
+
+.rsImage {
+	vertical-align: middle;
+	margin-right: 1.0em;
+	width: 30px;
+	height: auto;
+}
+
+.rsTitle {
+    display: inline;
+	vertical-align: middle;
+	font-size: 2.0em;
+	color: #B80018;
+	text-align: center;
+}
+
+.rsTitleInstruct {
+	font-size: 1.0em;
+	font-style: italic;
+	font-weight: bold;
+	color: #333;
+	margin: 0em 0em 3em 0em;
+}
+
+.rsTable {
+ 	width: 100%;
+	color: black;
+	text-align: right;
+	border: lightGrey solid 1px;
+}
+
+.rsTableHeader { 
+	width: 100%;
+	color: #B80018;
+	background-color: lightGrey;
+	font-size: 1.1em;
+	text-align: center;
+}
+
+
+/* Extra stuff for future use */
+
+.clearAll {
+	clear: both;
+	height: 0;
+	font-size: 0.0625em; /* 1px / 16px */
+	line-height: 0px;
+}
+
+.clearFloat {
+	clear: both;
+	height: 0px;
+}
+
+.clearFix {
+	display: block;
+	content: ".";
+	height: 0px;
+	visibility: hidden;
+	clear: both;
+}

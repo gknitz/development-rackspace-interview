@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Development Rackspace Interview</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Description" content="Development Rackspace Interview">
+	<meta name="Keywords" content="">
+	<!-- JQUERY -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.12/datatables.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.12/datatables.min.css" rel="stylesheet" type="text/css" />
+	<!-- RACKSPACE STUFF -->
+	<script src="js/rackspace.js" type="text/javascript"></script>
+    <link  href="css/rackspace_styles.css" rel="stylesheet" type="text/css" />
+	<!-- FILE SPECIFIC SCRIPTS -->
+	<script type="text/javascript">
+		$(document).ready (function() {
+    		loadInitialTable();
+		});			
+	</script>	
+</head>
+<body>
+
+    <div class="rsContainer">
+		 <div class="rsHeader">
+		 	<img class="rsImage" src="images/rackspace_logo.svg.png" alt="Rackspace logo" />
+		 	<h3  class="rsTitle">Table of Information</h3>
+		</div>
+		<div class="rsTitleInstruct">(To expand table size: hold down the 'ctrl' key and press the '+' key. To reduce table size: hold down the 'ctrl' key and press the '-' key)</div>
+		
+		<table id="rsTable" class="rsTable display">
+			 <thead>
+	            <tr>
+	                <th class="rsTableHeader">USER ID</th>
+	                <th class="rsTableHeader">ID</th>
+	                <th class="rsTableHeader">TITLE</th>
+	                <th class="rsTableHeader">BODY</th>
+	            </tr>
+	        </thead>
+		</table>
+	</div>
+	
+</body>
+</html>
